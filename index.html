@@ -1,23 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!--The <title> tag is the name that shows up in the browser tab-->
   <title>Alexa Torres Webpage</title>
-
-  <!--This line connects our HTML page to a separate CSS file called style.css.
-      CSS controls how the page looks (colors, fonts, spacing).
-      Keeping CSS in its own file is a best practice—it keeps HTML clean.-->
   <link rel="stylesheet" href="style.css">
+  <style>
+    .site-nav {
+      background: #1a1a2e;
+      padding: 0;
+      margin: 0 0 24px 0;
+      display: flex;
+      border-bottom: 3px solid #e94560;
+    }
+    .site-nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 14px 28px;
+      font-family: 'Segoe UI', sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      transition: background 0.2s, color 0.2s;
+      display: inline-block;
+    }
+    .site-nav a:hover,
+    .site-nav a.active {
+      background: #e94560;
+      color: #fff;
+    }
+  </style>
 </head>
 
 <body>
 
-  <!--This is the title at the top of the page-->
+  <nav class="site-nav">
+    <a href="index.html" class="active">🏠 Home</a>
+    <a href="game.html">🎵 Music Game</a>
+  </nav>
+
   <h1 class="page-title">Alexa Torres Webpage</h1>
 
-  <!--Three photos in a horizontal row.
-      The middle one is NOT actually me—see the caption below.
-      Lesson for class: alt text should always be honest about what an image is.-->
   <div class="photo-row">
     <img class="row-photo"
          alt="Alexa throwing up hook 'em at the Austin Rodeo, a true Longhorn"
@@ -33,7 +54,6 @@
     <em>Some pictures of me :) I have a lot of styles, I can't choose one!</em>
   </p>
 
-  <!--This is the About Me paragraph-->
   <p class="about-me">
     Hi! My name is Alexa Torres, I am a rising Junior at the University of Texas at Austin McCombs School of Business,
 	planning to major in Marketing. I am a first generation college student from Manor, Texas. I am the oldest of three and 
@@ -42,41 +62,31 @@
 
   <hr />
 
-  <!--Work experience as a bulleted list-->
   <h3>My Work Experience</h3>
   <ul>
     <li><strong>McCombs School of Business</strong> &mdash; Student (2024 &ndash; Present)</li>
     <li><strong>Wendy's</strong> &mdash; Crew Member (2024 &ndash; Present)</li>
-	<li><strong>Breakthrough-Central Texas </strong> &mdash; Active Member (2023 &ndash; Present)</li>
-
+    <li><strong>Breakthrough-Central Texas</strong> &mdash; Active Member (2023 &ndash; Present)</li>
   </ul>
 
   <hr />
 
-  <!--My Favorite Things: a bulleted list of links-->
   <h3>My Favorite Things</h3>
   <ul>
     <li><a href="https://open.spotify.com/" target="_blank">Spotify</a> &mdash; I absolutely love music, I spend a lot of my time on this app and have 3+ playlist</li>
     <li><a href="https://www.minecraft.net/en-us" target="_blank">Minecraft</a> &mdash; My favorite game since I could remember, always go back to it</li>
-    <li><a href="https://www.dutchbros.com/" target="_blank">Dutch Bros</a> &mdash; This is my favorite place to get a fun drink (I am always down for a fun drink) </li>
+    <li><a href="https://www.dutchbros.com/" target="_blank">Dutch Bros</a> &mdash; This is my favorite place to get a fun drink (I am always down for a fun drink)</li>
   </ul>
 
   <hr />
 
-  <!--YouTube videos: each one is an iframe.
-      Tip for students: to add your own, go to YouTube > Share > Embed,
-      and copy the FULL iframe tag.-->
   <h3>My Favorite Song</h3>
-
   <div class="video-grid">
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VjkyLTrkxhc?si=64AHTUjujPd8C5o9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VjkyLTrkxhc?si=64AHTUjujPd8C5o9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
 
   <hr />
 
-  <!--Contact section.
-      The mailto: link opens the user's email program.
-      LinkedIn opens in a new tab.-->
   <h3>Contact Me</h3>
   <p class="contact-line">
     <a href="mailto:akt2548@eid.utexas.edu">akt2548@eid.utexas.edu</a>
@@ -84,11 +94,9 @@
     <a href="https://www.linkedin.com/in/alexaktorres/" target="_blank">My LinkedIn Profile</a>
   </p>
 
-  <!--Footer with copyright-->
   <footer class="page-footer">
     Copyright &copy; 2026 Alexa Torres. All Rights Reserved.
   </footer>
 
 </body>
 </html>
-
