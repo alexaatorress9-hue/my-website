@@ -1,5 +1,5 @@
 /* ============================================================
-   Clint Tuttle's Webpage - style.css
+   Alexa Torres Webpage - style.css
    ============================================================
    Color palette (UT Austin inspired):
    - Burnt orange: #BF5700  (primary background)
@@ -23,7 +23,7 @@ body {
 .page-title {
   text-align: center;
   color: #14213D;                     /* navy title */
-  background-color: #E8DCC4;          /* khaki bar behind title */
+  background-color: #96B2FF;          /* khaki bar behind title */
   font-size: 42px;
   font-weight: bold;
   padding: 20px;
@@ -47,7 +47,7 @@ body {
   object-fit: cover;                  /* crop to fill, no distortion */
   border: 4px solid #14213D;          /* navy frame */
   border-radius: 6px;
-  background-color: #FFFFFF;
+  background-color: #96B2FF;
 }
 
 /* ---- Section headings (Fall 2026 Schedule, Videos, etc.) ---- */
@@ -61,7 +61,7 @@ h3 {
 
 /* ---- About Me paragraph ---- */
 .about-me {
-  background-color: #E8DCC4;          /* khaki "card" */
+  background-color: #96B2FF;          /* khaki "card" */
   color: #14213D;
   padding: 20px 25px;
   border-radius: 8px;
@@ -72,7 +72,7 @@ h3 {
 /* ---- Resume line ---- */
 .resume-line {
   text-align: center;
-  background-color: #FFFFFF;
+  background-color: #96B2FF;
   color: #14213D;
   padding: 12px;
   border-radius: 6px;
@@ -91,7 +91,7 @@ h3 {
 
 /* ---- Lists ---- */
 ol, ul {
-  background-color: #E8DCC4;
+  background-color: #96B2FF;
   color: #14213D;
   padding: 18px 18px 18px 45px;       /* extra left padding for bullets */
   border-radius: 8px;
@@ -111,7 +111,7 @@ a {
 
 a:hover {
   color: #BF5700;
-  background-color: #FFFFFF;
+  background-color: #96B2FF;
   padding: 1px 3px;
   border-radius: 3px;
 }
@@ -127,7 +127,7 @@ hr {
 .video-grid {
   justify-items: center;
   text-align:center;
-  background-color: #E8DCC4;
+  background-color: #96B2FF;
   padding: 40px;
   border-radius: 8px;
 }
@@ -138,7 +138,7 @@ hr {
   text-align:center;
   border: 3px solid #14213D;
   border-radius: 6px;
-  background-color: #14213D;
+  background-color: #96B2FF;
 }
 
 /* ---- Contact line ---- */
@@ -189,3 +189,4 @@ hr {
     font-size: 15px;
   }
 }
+
